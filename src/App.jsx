@@ -1,4 +1,5 @@
 import './App.css'
+import UseEffectComp from "./Components/UseEffectComp"
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       {/* <ReuseCompInLoop /> */}
       {/* <Clock /> */}
       {/* <NestedLooping /> */}
+      <UseEffectComp />
     </>
   )
 }
