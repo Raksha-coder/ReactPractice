@@ -1,8 +1,5 @@
 import './App.css'
-
 function App() {
-
-
   return (
     <>
       {/* <FormTask /> */}
@@ -12,6 +9,7 @@ function App() {
       {/* <LoopInJsxMap /> */}
       {/* <ReuseCompInLoop /> */}
       {/* <Clock /> */}
+      {/* <NestedLooping /> */}
     </>
   )
 }
