@@ -1,5 +1,4 @@
 import './App.css'
-
 function App() {
 
 
@@ -10,6 +9,7 @@ function App() {
       {/* <Checkbox /> */}
       {/* <RadioButtonDropdown /> */}
       {/* <LoopInJsxMap /> */}
+      {/* <ReuseCompInLoop /> */}
     </>
   )
 }
