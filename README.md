@@ -15,9 +15,18 @@ If you are developing a production application, we recommend using TypeScript wi
 ## Styled Component
 
 use command : npm i styled-components to install the style component.
+It is a npm package , that we directly use for styling.
+Link : https://styled-components.com/docs/basics
+
 
 ## Style module 
 
 If you want to create a css file only for specific component , then you use Style module. Ex: userProfile.module.css
+
+
+## React Bootstrap
+
+Go to react bootstrap website and install bootstrap from there.
+Link : https://react-bootstrap.netlify.app/
 
 
