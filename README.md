@@ -29,4 +29,13 @@ If you want to create a css file only for specific component , then you use Styl
 Go to react bootstrap website and install bootstrap from there.
 Link : https://react-bootstrap.netlify.app/
 
+## Hooks 
+
+# UseRef
+
+useRef, like the name suggests, lets you create a reference to a value. This reference is in the form of an object, called a ref object. The ref object has a current property that stores the value. The ref object is mutable; you can change its current property and read it.
+
+Difference between state and ref : 
+A ref is similar to state, in that, we can hold and mutate values to be used in a component. However, unlike state, mutation of a ref does not trigger a re-render. This makes useRef suitable for storing mutable values that need to persist across renders without causing the component to re-render.
+
 

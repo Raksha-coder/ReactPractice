@@ -1,4 +1,4 @@
-// import StyledComponent from "./Components/StyledComponent";
+import UseRef from "./Components/UseRef"
 function App() {
   return (
     <>
@@ -15,6 +15,7 @@ function App() {
       {/* <h1 className='heading'>App Profile : Here we do not imported the style.css but it will still apply it's</h1>
       <UserProfile /> */}
       {/* <StyledComponent /> */}
+      <UseRef />
     </>
   )
 }
