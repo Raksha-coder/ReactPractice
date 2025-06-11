@@ -29,9 +29,9 @@ If you want to create a css file only for specific component , then you use Styl
 Go to react bootstrap website and install bootstrap from there.
 Link : https://react-bootstrap.netlify.app/
 
-## Hooks 
+# Hooks 
 
-# UseRef
+## UseRef
 
 useRef, like the name suggests, lets you create a reference to a value. This reference is in the form of an object, called a ref object. The ref object has a current property that stores the value. The ref object is mutable; you can change its current property and read it.
 
@@ -50,6 +50,13 @@ we use it to pass the ref from parent to child component.
 To check the status of the form or to add loader .  
 In useFormStatus : we must have form tag there else it will not work.
 In useTransition : It can work without form tag. like on button .
+
+## some rules in react
+
+what is pure function ?
+what is pure component ?
+
+
 
 
 
