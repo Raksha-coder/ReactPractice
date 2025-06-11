@@ -45,3 +45,13 @@ in v18 and before , we use ForwardRef but in v19 forwardRef is deprecated.
 we use it to pass the ref from parent to child component.
 
 
+## useFormStatus vs useTransition
+
+To check the status of the form or to add loader .  
+In useFormStatus : we must have form tag there else it will not work.
+In useTransition : It can work without form tag. like on button .
+
+
+
+
+
