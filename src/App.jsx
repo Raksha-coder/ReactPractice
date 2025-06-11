@@ -1,5 +1,5 @@
 import './App.css'
-import LifeCycleMethod from "./Components/LifeCycleMethod"
+import UserProfile from './Components/UserProfile'
 function App() {
   return (
     <>
@@ -12,7 +12,9 @@ function App() {
       {/* <Clock /> */}
       {/* <NestedLooping /> */}
       {/* <UseEffectComp /> */}
-      <LifeCycleMethod />
+      {/* <LifeCycleMethod /> */}
+      <h1 className='heading'>App Profile : Here we do not imported the style.css but it will still apply it's</h1>
+      <UserProfile />
     </>
   )
 }
