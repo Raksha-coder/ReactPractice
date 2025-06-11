@@ -1,5 +1,5 @@
 import './App.css'
-import UseEffectComp from "./Components/UseEffectComp"
+import LifeCycleMethod from "./Components/LifeCycleMethod"
 function App() {
   return (
     <>
@@ -11,7 +11,8 @@ function App() {
       {/* <ReuseCompInLoop /> */}
       {/* <Clock /> */}
       {/* <NestedLooping /> */}
-      <UseEffectComp />
+      {/* <UseEffectComp /> */}
+      <LifeCycleMethod />
     </>
   )
 }
