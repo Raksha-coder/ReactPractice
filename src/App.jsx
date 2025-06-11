@@ -1,5 +1,4 @@
-import './App.css'
-import UserProfile from './Components/UserProfile'
+import StyledComponent from "./Components/StyledComponent";
 function App() {
   return (
     <>
@@ -13,8 +12,9 @@ function App() {
       {/* <NestedLooping /> */}
       {/* <UseEffectComp /> */}
       {/* <LifeCycleMethod /> */}
-      <h1 className='heading'>App Profile : Here we do not imported the style.css but it will still apply it's</h1>
-      <UserProfile />
+      {/* <h1 className='heading'>App Profile : Here we do not imported the style.css but it will still apply it's</h1>
+      <UserProfile /> */}
+      <StyledComponent />
     </>
   )
 }
