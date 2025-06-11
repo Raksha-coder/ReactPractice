@@ -57,6 +57,9 @@ what is pure function ?
 what is pure component ?
 
 
+## lifting state up in react
+![alt text](image.png)
+
 
 
 
