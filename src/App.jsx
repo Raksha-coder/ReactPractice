@@ -1,5 +1,4 @@
-import UncontrolledComp from "./Components/UncontrolledComp";
-import PassFunction from "./Components/PassFunction";
+import ForwardRef from "./Components/ForwardRef";
 function App() {
   return (
     <>
@@ -18,10 +17,11 @@ function App() {
       {/* <StyledComponent /> */}
       {/* <UseRef /> */}
       {/* <UncontrolledComp /> */}
+      {/* <PassFunction />
       <PassFunction />
       <PassFunction />
-      <PassFunction />
-      <PassFunction />
+      <PassFunction /> */}
+      <ForwardRef />
     </>
   )
 }
