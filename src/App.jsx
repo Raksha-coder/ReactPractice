@@ -1,4 +1,5 @@
 import LiftingUpStateParent from "./Components/LiftingUpStateParent"
+import UpdateObectUsingState from "./Components/UpdateObectUsingState";
 function App() {
   return (
     <>
@@ -26,6 +27,7 @@ function App() {
       {/* <UseTransition /> */}
       {/* <DerivedState /> */}
       {/* <LiftingUpStateParent /> */}
+      <UpdateObectUsingState />
     </>
   )
 }
