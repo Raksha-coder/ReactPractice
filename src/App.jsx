@@ -1,4 +1,4 @@
-
+import LiftingUpStateParent from "./Components/LiftingUpStateParent"
 function App() {
   return (
     <>
@@ -25,6 +25,7 @@ function App() {
       {/* <UseFormStatus /> */}
       {/* <UseTransition /> */}
       {/* <DerivedState /> */}
+      {/* <LiftingUpStateParent /> */}
     </>
   )
 }
