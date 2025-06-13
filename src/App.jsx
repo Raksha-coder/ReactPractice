@@ -1,6 +1,5 @@
-import LiftingUpStateParent from "./Components/LiftingUpStateParent"
-import UpdateObectUsingState from "./Components/UpdateObectUsingState";
 import UseActionState from "./Components/UseActionState";
+import UseIdHook from "./Components/UseIdHook"
 function App() {
   return (
     <>
@@ -29,7 +28,10 @@ function App() {
       {/* <DerivedState /> */}
       {/* <LiftingUpStateParent /> */}
       {/* <UpdateObectUsingState /> */}
-      <UseActionState />
+      {/* <UseActionState /> */}
+      <UseIdHook/>    
+      <UseIdHook/>
+      {/* If i am calling UseIdHook twice , i want for each component call my form input should have unique id */}
     </>
   )
 }
