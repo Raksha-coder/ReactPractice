@@ -73,3 +73,9 @@ To generate Unique Id's
 
 Do not use useId in a key while generating list .
 
+
+
+## Fragment 
+
+![alt text](image-2.png)
+Using fragement it does not create a new element like div in DOM .
