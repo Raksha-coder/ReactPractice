@@ -1,5 +1,5 @@
-import UseActionState from "./Components/UseActionState";
-import UseIdHook from "./Components/UseIdHook"
+
+import College from "./Components/Context API/College"
 function App() {
   return (
     <>
@@ -29,9 +29,10 @@ function App() {
       {/* <LiftingUpStateParent /> */}
       {/* <UpdateObectUsingState /> */}
       {/* <UseActionState /> */}
-      <UseIdHook/>    
-      <UseIdHook/>
+      {/* <UseIdHook/>    
+      <UseIdHook/> */}
       {/* If i am calling UseIdHook twice , i want for each component call my form input should have unique id */}
+      <College />
     </>
   )
 }

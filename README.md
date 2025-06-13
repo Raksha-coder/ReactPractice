@@ -86,3 +86,9 @@ Using fragement it does not create a new element like div in DOM .
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 
+
+
+## Context API 
+
+we can share data among component while ignoring props drilling.
+![alt text](image-5.png)
