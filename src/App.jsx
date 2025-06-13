@@ -1,5 +1,6 @@
 
 import College from "./Components/Context API/College"
+import ToggleComp from "./Components/ToggleComp"
 function App() {
   return (
     <>
@@ -32,7 +33,8 @@ function App() {
       {/* <UseIdHook/>    
       <UseIdHook/> */}
       {/* If i am calling UseIdHook twice , i want for each component call my form input should have unique id */}
-      <College />
+      {/* <College /> */}
+      {/* <ToggleComp /> */}
     </>
   )
 }

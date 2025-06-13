@@ -92,3 +92,8 @@ Using fragement it does not create a new element like div in DOM .
 
 we can share data among component while ignoring props drilling.
 ![alt text](image-5.png)
+
+
+## Custom Hooks
+
+Make a custom hook to toggle the UI 
