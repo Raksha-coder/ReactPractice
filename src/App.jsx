@@ -1,6 +1,6 @@
-
-import College from "./Components/Context API/College"
-import ToggleComp from "./Components/ToggleComp"
+import { Route, Routes ,Link} from "react-router"
+import Home from "./ReactRoutingComp/Home";
+import About from "./ReactRoutingComp/About";
 function App() {
   return (
     <>
@@ -35,6 +35,16 @@ function App() {
       {/* If i am calling UseIdHook twice , i want for each component call my form input should have unique id */}
       {/* <College /> */}
       {/* <ToggleComp /> */}
+
+        <Link to="/">Home</Link>
+        <br />
+        <Link to="/about">About</Link>
+
+        <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="about" element={<About />} />
+        </Routes>
+
     </>
   )
 }

@@ -97,3 +97,7 @@ we can share data among component while ignoring props drilling.
 ## Custom Hooks
 
 Make a custom hook to toggle the UI 
+
+## React Router 7 setup in react
+
+npm install react-router-dom
