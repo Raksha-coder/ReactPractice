@@ -79,3 +79,10 @@ Do not use useId in a key while generating list .
 
 ![alt text](image-2.png)
 Using fragement it does not create a new element like div in DOM .
+
+
+## Rules of hooks in react 
+
+![alt text](image-3.png)
+![alt text](image-4.png)
+
